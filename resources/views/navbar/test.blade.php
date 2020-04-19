@@ -1,56 +1,119 @@
-<nav class="navbar navbar-expand-md navbar-light bg-light">
-    <a class="navbar-brand" href="#">Shebabratee</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+<nav class="navbar navbar-expand-lg navbar-light bg-light" id="main_navbar">
+    <a class="navbar-brand" href="#">SHEBABRATEE</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-            <li class="nav-item dropdown active">
-                <a class="nav-link dropdown-toggle" href="https://bootstrapthemes.co" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                   Scout
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">
+                    About Us
                 </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <li><a class="dropdown-item dropdown-toggle" href="#">Cub</a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Members Information</a></li>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    Events
+                </a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown_0" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Scouting
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown_0">
+                    <li class="nav-item dropdown">
+                        <a class="dropdown-item dropdown-toggle" href="#" id="navbarDropdown_1" role="button" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                Cub Scout
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown_1">
+                            <li><a class="dropdown-item" href="#">Member Information</a></li>
                             <li><a class="dropdown-item" href="#">Yearly Program</a></li>
                             <li><a class="dropdown-item" href="#">Special Events</a></li>
-                            <li><a class="dropdown-item dropdown-toggle" href="#">Subsubmenu</a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Subsubmenu action aa</a></li>
-                                    <li><a class="dropdown-item" href="#">Another subsubmenu action</a></li>
-                                </ul>
-                            </li>
-                            <li><a class="dropdown-item dropdown-toggle" href="#">Second subsubmenu</a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Subsubmenu action bb</a></li>
-                                    <li><a class="dropdown-item" href="#">Another subsubmenu action</a></li>
-                                </ul>
-                            </li>
                         </ul>
                     </li>
-                    <li><a class="dropdown-item dropdown-toggle" href="#">Submenu 2</a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Submenu action 2</a></li>
-                            <li><a class="dropdown-item" href="#">Another submenu action 2</a></li>
-
-
-                            <li><a class="dropdown-item dropdown-toggle" href="#">Subsubmenu</a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Subsubmenu action 1 3</a></li>
-                                    <li><a class="dropdown-item" href="#">Another subsubmenu action 2 3</a></li>
-                                </ul>
-                            </li>
-                            <li><a class="dropdown-item dropdown-toggle" href="#">Second subsubmenu 3</a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Subsubmenu action 3 </a></li>
-                                    <li><a class="dropdown-item" href="#">Another subsubmenu action 3</a></li>
-                                </ul>
-                            </li>
+                    <li class="nav-item dropdown">
+                        <a class="dropdown-item dropdown-toggle" href="#" id="navbarDropdown_2" role="button" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                Boy Scout
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown_2">
+                            <li><a class="dropdown-item" href="#">Member Information</a></li>
+                            <li><a class="dropdown-item" href="#">Yearly Program</a></li>
+                            <li><a class="dropdown-item" href="#">Special Events</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="dropdown-item dropdown-toggle" href="#" id="navbarDropdown_3" role="button" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                Rover Scout
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown_3">
+                            <li><a class="dropdown-item" href="#">Member Information</a></li>
+                            <li><a class="dropdown-item" href="#">Yearly Program</a></li>
+                            <li><a class="dropdown-item" href="#">Special Events</a></li>
                         </ul>
                     </li>
                 </ul>
             </li>
+            
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown_5" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Documents
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown_5">
+                    <li class="nav-item dropdown">
+                        <a class="dropdown-item dropdown-toggle" href="#" id="navbarDropdown_6" role="button" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                Admission Forms
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown_6">
+                            <li><a class="dropdown-item" href="#">Cub Scout Form</a></li>
+                            <li><a class="dropdown-item" href="#">Boy Scout Form</a></li>
+                            <li><a class="dropdown-item" href="#">Rover Scout Form</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="dropdown-item dropdown-toggle" href="#" id="navbarDropdown_7" role="button" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                Official Papers
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown_7">
+                            <li><a class="dropdown-item" href="#">Group Scouters Council</a></li>
+                            <li><a class="dropdown-item" href="#">Group Council</a></li>
+                            <li><a class="dropdown-item" href="#">Group Comittee</a></li>
+                            <li><a class="dropdown-item" href="#">Expenditure</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown_6" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Archive
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown_6">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            Documents
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            Photos
+                        </a>
+                    </li>
+                    <li class="nav-item">   
+                        <a class="nav-link" href="#">
+                            Videos
+                        </a>
+                    </li>
+                </ul>
+            </li>
         </ul>
+       
     </div>
 </nav>
